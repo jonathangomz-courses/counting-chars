@@ -3,7 +3,8 @@ function countChars(str, char) {
 }
 
 (function() {
-  countChars("Some text here", "e");
+  const res = countChars("Some text here", "e");
+  console.log(res);
 })();
 
 module.exports = countChars;
