@@ -1,9 +1,9 @@
-// Your function goes here...
+function countChars(str, char) {
+  // Your code goes here...
+}
 
-/** code example
-const sum = (a, b) => a + b;
+(function() {
+  countChars("Some text here", "e");
+})();
 
-module.exports = sum;
-*/
-
-// module.exports = <function-name>;
+module.exports = countChars;
