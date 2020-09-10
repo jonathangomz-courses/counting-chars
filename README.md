@@ -1,13 +1,18 @@
-# [Exercise-title]
+# Counting Chars
 
-## Coding
-Clone this repository:
+## Instructions
+Given a string s and a character c, return the number of occurrences of c in s.
+
+## How to Work
+
+### Coding
+- Clone this repository:
 
 ```bash
-git  clone [repository-url]
+git  clone https://github.com/jonathangomz-courses/counting-chars.git
 ```
 
-Write your code on `exercise.js`
+- Write your code on `exercise.js`
 
 ```javascript
 // example
@@ -16,23 +21,23 @@ const sum = (a, b) => a + b;
 module.exports = sum;
 ```
 
-Run your code:
+- Run your code:
 
 ```bash
 npm start
 ```
 
-## Testing
-**Optional for testing (Jest)**
+### Testing*
+**Optional for testing (Jest)*
 
-Install dependencies:
+- Install dependencies:
 
 ```bash
-cd [repository-name]
+cd counting-chars
 npm install
 ```
 
-Run jest:
+- Run jest:
 ```
 npm test
 ```
