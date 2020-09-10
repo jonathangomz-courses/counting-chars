@@ -9,14 +9,21 @@ Given a string s and a character c, return the number of occurrences of c in s.
 - Clone this repository:
 
 ```bash
-git  clone https://github.com/jonathangomz-courses/counting-chars.git
+git clone https://github.com/jonathangomz-courses/counting-chars.git
+cd counting-chars
 ```
 
 - Write your code on `exercise.js`
 
 ```javascript
 // example
-const sum = (a, b) => a + b;
+function sum (a, b) {
+  return a + b;
+}
+
+(function() {
+  console.log(sum(1, 2));
+})();
 
 module.exports = sum;
 ```
@@ -33,7 +40,6 @@ npm start
 - Install dependencies:
 
 ```bash
-cd counting-chars
 npm install
 ```
 
