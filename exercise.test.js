@@ -1,15 +1,18 @@
-const func = require('./exercise');
+const countChars = require('./exercise');
 
-describe('Some description', () => {
-  test('some test A', () => {
-    // expect(func(1, 2)).toBe(3);
+describe('Some description', () => {  
+  test('Should count o character', () => {
+    const res = countChars("When I look to the sky", "o");
+    expect(res).toBe(3);
+  });
+  
+  test('Should count lower and uppercase', () => {
+    const res = countChars("All over Again", "A");
+    expect(res).toBe(3);
   });
 
-  test('some test B', () => {
-    // expect(func(1, 2)).toBe(3);
-  });
-
-  test('some test C', () => {
-    // expect(func(1, 2)).toBe(3);
+  test('Should count special characters', () => {
+    const res = countChars("H.O.L.Y", ".");
+    expect(res).toBe(3);
   });
 });
